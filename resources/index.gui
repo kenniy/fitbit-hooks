@@ -1,0 +1,46 @@
+<svg class="background">
+	<defs>
+		<symbol id="hook" href="#tile-list-item" focusable="false" pointer-events="none" system-events="all" display="none">
+			<use id="button-l" href="#square-button" fill="fb-yellow" class="dialog-half-button-left hook" display="none" height="100%" x="0" y="0">
+				<set href="text" attributeName="text-buffer" to="Lorem ipsum dolor sit amet"/>
+			</use>
+			<use id="button-r" href="#square-button" fill="fb-yellow" class="dialog-half-button-right hook" display="none" height="100%" x="50%" y="0">
+				<set href="text" attributeName="text-buffer" to="Lorem ipsum dolor sit amet"/>
+			</use>
+
+			<use id="button" href="#square-button" fill="fb-yellow" class="hook" display="none" height="100%">
+				<set href="text" attributeName="text-buffer" to="Lorem ipsum dolor sit amet"/>
+			</use>
+		</symbol>
+	</defs>
+
+	<use id="spinner" href="#spinner"/>
+
+	<use id="no-hook" href="#mixed-text-center-mid" height="100%" fill="#FF7000" display="none">
+		<set href="#header/text" attributeName="text-buffer" to="No hook!"/>
+		<set href="#copy/text" attributeName="text-buffer" to="use the mobile app to add some hooks"/>
+	</use>
+
+	<use id="loading" display="none" href="#mixed-text-center-mid">
+		<set href="#copy/text" attributeName="text-buffer" to="loading..."/>
+	</use>
+
+
+
+	<use id="hooks" href="#tile-list">
+		<var id="virtual" value="1" />
+
+		<use id="pool" href="#tile-list-pool">
+			<use id="pool[0]" href="#hook" class="tile-list-item"/>
+			<use id="pool[1]" href="#hook" class="tile-list-item"/>
+			<use id="pool[2]" href="#hook" class="tile-list-item"/>
+			<use id="pool[3]" href="#hook" class="tile-list-item"/>
+			<use id="pool[4]" href="#hook" class="tile-list-item"/>
+			<use id="pool[5]" href="#hook" class="tile-list-item"/>
+			<use id="pool[6]" href="#hook" class="tile-list-item"/>
+			<use id="pool[7]" href="#hook" class="tile-list-item"/>
+			<use id="pool[8]" href="#hook" class="tile-list-item"/>
+			<use id="pool[9]" href="#hook" class="tile-list-item"/>
+		</use>
+	</use>
+</svg>

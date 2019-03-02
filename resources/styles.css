@@ -1,0 +1,20 @@
+.background {
+	viewport-fill: black;
+}
+
+.tile-list-item {
+	height: 95;
+}
+
+.tile-list-item text {
+	font-family: Seville-Regular;
+	fill: "white";
+}
+
+#spinner {
+	x: 50%-25;
+	y: 50%-25;
+	width: 50;
+	height: 50;
+	fill: fb-white;
+}

@@ -1,0 +1,43 @@
+{
+	"env": {
+		"es6": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"experimentalObjectRestSpread": true,
+			"jsx": true
+		}
+	},
+	"plugins": [
+		"css-modules"
+	],
+	"extends": [
+		"eslint:recommended",
+		"plugin:css-modules/recommended"
+	],
+	"rules": {
+		"indent": [
+			"error",
+			"tab"
+		],
+		"linebreak-style": [
+			"error",
+			"unix"
+		],
+		"quotes": [
+			"error",
+			"double"
+		],
+		"semi": [
+			"error",
+			"always"
+		],
+		"arrow-parens": [
+			"error",
+			"always"
+		],
+		"no-useless-escape": 2
+	}
+}

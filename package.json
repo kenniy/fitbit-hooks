@@ -1,0 +1,32 @@
+{
+  "fitbit": {
+    "appType": "app",
+    "appDisplayName": "hooks",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#2196f3",
+    "requestedPermissions": [
+      "access_internet"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "hooks"
+      }
+    },
+    "appUUID": "61cc13ae-e73c-4026-9a73-2f4d43237503"
+  },
+  "dependencies": {
+    "@fitbit/sdk": "^3.0.0",
+    "@fitbit/sdk-cli": "^1.5.0",
+    "eslint": "^5.12.1"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  },
+  "devDependencies": {
+    "eslint-plugin-css-modules": "^2.11.0"
+  }
+}
