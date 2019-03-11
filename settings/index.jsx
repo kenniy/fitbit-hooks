@@ -4,10 +4,11 @@ function mySettings(props) {
 	return (
 		<Page>
 			<Section
-				title={<Text>IFTTT API key</Text>}
+				title={<Text>API key(s)</Text>}
 			>
 				<TextInput
 					settingsKey="iftttApiKey"
+					label="ifttt api key"
 					placeholder="boHIDNR4PJDSsd3KdrsLDF"
 				/>
 			</Section>
