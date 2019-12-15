@@ -4,7 +4,7 @@ function mySettings(props) {
 	return (
 		<Page>
 			<Section
-				title={<Text>API key(s)</Text>}
+				title={<Text>API key</Text>}
 			>
 				<TextInput
 					settingsKey="iftttApiKey"
@@ -15,7 +15,7 @@ function mySettings(props) {
 
 			<Section
 				title={<Text>IFTTT events</Text>}
-				description={<Text italic>make sure the event is already created in ifttt</Text>}
+				description={<Text italic>make sure the event is already created in ifttt. a colon (:) separates the button name from the ifttt event and is mandatory i.e. button name:ifttt_event</Text>}
 			>
 				<AdditiveList
 					settingsKey="ifttt"
@@ -26,7 +26,7 @@ function mySettings(props) {
 
 			<Section
 				title={<Text>Custom webhooks</Text>}
-				description={<Text italic> add a full webhook url, with any require authentication</Text>}
+				description={<Text italic> add a full webhook url with any require authentication. colon (:) separates the button name from the webhook url and is mandatory i.e. button name:webhook url</Text>}
 			>
 				<AdditiveList
 					settingsKey="custom"
