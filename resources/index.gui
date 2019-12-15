@@ -26,9 +26,8 @@
 	</use>
 
 
-
 	<use id="hooks" href="#tile-list">
-		<var id="virtual" value="1" />
+		<var id="virtual" value="1"/>
 
 		<use id="pool" href="#tile-list-pool">
 			<use id="pool[0]" href="#hook" class="tile-list-item"/>

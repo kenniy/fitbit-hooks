@@ -9,7 +9,9 @@
     ],
     "buildTargets": [
       "higgs",
-      "meson"
+      "meson",
+      "gemini",
+      "mira"
     ],
     "i18n": {
       "en": {
@@ -19,14 +21,14 @@
     "appUUID": "61cc13ae-e73c-4026-9a73-2f4d43237503"
   },
   "dependencies": {
-    "@fitbit/sdk": "3.0.0",
-    "@fitbit/sdk-cli": "1.5.0",
-    "eslint": "5.14.1"
+    "@fitbit/sdk": "4.0.1",
+    "@fitbit/sdk-cli": "1.7.1",
+    "eslint": "6.7.2"
   },
   "scripts": {
     "build": "fitbit-build"
   },
   "devDependencies": {
-    "eslint-plugin-css-modules": "^2.11.0"
+    "eslint-plugin-css-modules": "2.11.0"
   }
 }
